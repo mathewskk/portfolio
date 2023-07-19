@@ -1,0 +1,260 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Page-specific styles */
+  .hero {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about, .projects, .contact {
+    margin-bottom: 2rem;
+  }
+  .contact {
+    position: realtive;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+    .contact .content
+    {
+      max-width: 800px;
+      text-align: center;
+
+    }
+
+    .contact .content h2
+    {
+      font-size: 36px;
+      font-weight: 500;
+      color: #fff;
+
+
+    }
+  
+  .contactform
+  {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+  }
+
+  .contactform h2
+  {
+    font-size: 30px;
+    color:#333 ;
+    font-weight: 500;
+  }
+  .contactForm.inputbox
+  {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .contactform .inputbox input
+
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .contactform .inputbox span{
+   
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5%;
+    color: #666;
+  }
+    .contactform .inputbox input:focus ~ span,
+    .contactform .inputbox input:valid ~span,
+    .contactform .inputbox textarea:focus ~ span,
+    .contactform .inputbox textarea:valid ~ span
+{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+   button[type="submit"]
+{
+  width: 100px;
+  background:#00bcd4;
+  color:#fff;
+  border:none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+  
+
+.detel{
+  margin-left: 8%;
+  margin-top: 15%;
+
+}
+
+.detel h1{
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+
+}
+span{
+  color: orange;
+
+}
+.detel p{
+  color: #555;
+  line-height: 22px;
+
+}
+.detel a{
+  background: : #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-black;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+  .images1
+  {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:0;
+    right: 100px;
+  }
+
+  .images1 img{
+    height: 76%;
+    position: absolute;
+    left:90%;
+    bottom: 29%;
+    transform: translateX(-50%);
+    transition: :bottom is, left is;
+
+  }
+
+    .wrapper {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+      .imageab {
+        width: 900px;
+        position: absolute;
+        top: 200px;
+        left:0;
+
+      }
+      .imageab img{
+        width:100%;
+        display: block;
+        margin: none;
+      }
+
+      .content {
+        width: 50%;
+        height: 100%;
+        top:0;
+        left:0;
+        position: absolute;
+        background: rgba(0,0,0,0,6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity:0;
+        transition: 0.6s;
+      }
+      .content:hover {
+        opacity: 1;
+      }
+
+      .content h1{
+        font-size:55px;
+        color:#ffe100;
+        margin-bottom: 15px;
+        }
+
+        .grow{
+          transition: .5s ease
+        }
+
+        .grow:hover
+        {
+          transform: scale(1.5);
+          -webkit-transform: scale(1.5);
+          -ms-transform: scale(1.5);
+          padding-right: 3.0 em;
+
+        }
+
+
+  /* Add more custom styles as needed */
+  
+  
